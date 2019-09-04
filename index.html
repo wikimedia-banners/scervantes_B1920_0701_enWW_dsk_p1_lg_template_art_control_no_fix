@@ -345,17 +345,6 @@ body.rtl .frb-message-icon {
     }
 }
 
-/*Triangle*/
-.frb-nag .frb-message-inner:before {
-    position: absolute;
-    top: 50%;
-    right: -26px;
-    content: " ";
-    margin: -10px 0 0 0;
-    border: 10px solid transparent;
-    border-left-color: #900;
-    pointer-events: none;
-}
 
 /* -------------- Form -------------- */
 
@@ -367,20 +356,6 @@ body.rtl .frb-message-icon {
     height: 100%;
     vertical-align: top;
     background: #fff;
-}
-
-/*Triangle in article and fixed expanded state*/
-
-.frb-triangle:before {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    left: -25px;
-    margin-top: -13px;
-    content: " ";
-    border: 10px solid transparent;
-    border-left-color: #900;
-    pointer-events: none;
 }
 
 .frb-form-wrapper fieldset {
@@ -1620,7 +1595,6 @@ button.frb-nag-btn:hover {
                                 <label class="frb-amt-other-label" for="frb-amt-other-input">{{{FR2015_translations,other}}}</label>
                             </li>
                         </ul>
-                       <div class="frb-triangle"></div>
                         <div class="frb-ptf frb-checkbox-wrapper" style="display: none;">
                             <input class="frb-checkbox" id="frb-ptf-checkbox" name="ptf" type="checkbox" value="true" onclick="frb.updateFeeDisplay();">
                             <label class="frb-checkbox-label" for="frb-ptf-checkbox">{{{FR2015_translations,generously-add}}} </label>
