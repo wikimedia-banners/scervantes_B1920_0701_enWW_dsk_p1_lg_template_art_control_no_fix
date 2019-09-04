@@ -36,6 +36,86 @@
     padding: 0;
 }
 
+/* New */
+
+.frb-highlight {
+    border-bottom: 3px solid #fc5e5e;
+    padding-bottom: 2px;
+}
+
+.frb-message__title {
+    font-family: Georgia;
+    font-size: 34px;
+    color: #222222; 
+}
+.frb-message__title-icon {
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    width: 58px;
+}
+.frb-message__icon-placeholder:before,
+.frb-message__icon-placeholder:after {
+    position: absolute;
+    content: "";
+    left: 29px;
+    top: 0;
+    width: 29px;
+    height: 50px;
+    background: red;
+    border-radius: 29px 29px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.frb-message__icon-placeholder:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+.frb-replace-countryname {
+    display: inline-block;
+    position: relative;
+}
+.frb-message__with-ornament {
+    position: relative;
+}
+.frb-message__title--wikipedia {
+    color: #fc5e5e;
+}
+.frb-message__text {
+    padding: 24px;
+    background: #F5F6FA;
+}
+.frb-message__p {
+    font-family: Arial;
+    color: #222222;
+}
+
+.frb-message__bottom-left-ornament {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 63px;
+}
+.frb-message__bottom-right-ornament {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 115px;
+}
+.frb-message__title-ornament {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 50px;
+}
+
+.frb-message__info-icon {
+    display: inline-block;
+    margin-right: 16px;
+    vertical-align: sub;
+}
+
 /* --- Main banner wrapper --- */
 
 #siteNotice {
